@@ -1,0 +1,6 @@
+"1","Menor o Igual a 1 (Menor a 3cm)","LESS THAN & INCLUDING 1"" 3 5 OVER 12"""
+"2","Mayor que 1 y menos o igual que 3 (de 3 a 8 cm)","OVER 1"" UP TO & INCLUDING 3"""
+"3","Mayor que 3 y menor o igual que 6 (de 8 a 15 cm)","OVER 3"" UP TO & INCLUDING 6"""
+"4","Mayor que 6 y menor o igual que 12 (de 15 a 30 cm)","OVER 6"" UP TO & INCLUDING 12"""
+"5","Mayor de 12 (Mayor a 30 cm)","OVER 12"""
+"6","Faltante/Reemplazable","MISSING"

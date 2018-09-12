@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/09/2018, 12:33:04 PM
+    Author     : anzendigital
+*/
+
+/**{ 
+    font-family: arial; box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+}*/
+
+.ul-thumnail { list-style-type: none; margin: 0px; padding: 0px; }
+.ul-thumnail .li-thumnail { 
+    padding-top: 35px;
+    float: left; width: 110px; height: 110px;
+    background-position: center center;
+    background-repeat: no-repeat; border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    margin: 0 10px 10px 0;
+}
+.ul-thumnail .li-thumnail .span-thumnail { 
+    display: none; background-color: rgba(0,0,0,0.5); 
+    color: #555; text-align: center; 
+    margin: 0px 15px 10px 15px; color: #fff; 
+    border-radius: 5px;
+    padding: 3px; cursor: pointer;
+}
+.ul-thumnail .li-thumnail:hover .span-thumnail { display: block; }
+.ul-thumnail .li-thumnail:hover .span-thumnail:hover { background-color: rgba(0,0,0,1); }
+
+.ul-thumnail .li-thumnail.selected { border: 2px solid #000; }

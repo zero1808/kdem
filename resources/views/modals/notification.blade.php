@@ -17,7 +17,7 @@
             </div>
 
             <div class="modal-footer">
-                <button type="button" class="btn btn-white" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-white" id="btt_close_notification" onclick="closeNotification();">Cerrar</button>
             </div>
         </div>
     </div>

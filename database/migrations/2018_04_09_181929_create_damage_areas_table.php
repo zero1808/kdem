@@ -17,6 +17,7 @@ class CreateDamageAreasTable extends Migration
             $table->increments('id');
             $table->integer('number')->unique();
             $table->string('name');
+            $table->string('name_english');
             $table->timestamps();
         });
     }

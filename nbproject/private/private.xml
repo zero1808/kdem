@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>app/Http/Controllers/ClaimController.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>238</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Applications/MAMP/htdocs/kdem/app/Http/Controllers/ClaimController.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/claims/new.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/modals/validationerror.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/public/js/scripts/saved_claim.controller.js</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/routes/web.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/app/Http/Controllers/ClaimPicController.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/app/User.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/public/js/scripts/new_claim.controller.js</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/modals/loader.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/claims/view_rejected.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/config/constants.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/app/Http/Controllers/DamageController.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/claims/holder.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/claims/saved_claim.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/app/Http/Controllers/HomeController.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/public/js/scripts/claim.controller.js</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/public/js/common/spinners.js</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/public/js/scripts/viewclaims_rejected.controller.js</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/claims/table.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/modals/notification.blade.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/app/Utilities/Response/HttpResponseImpl.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/app/Http/Controllers/ClaimTableController.php</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/public/js/common/claims_table.controller.js</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/public/js/scripts/viewclaims_accepted.controller.js</file>
+            <file>file:/Applications/MAMP/htdocs/kdem/resources/views/claims/view_saved.blade.php</file>
+        </group>
     </open-files>
 </project-private>

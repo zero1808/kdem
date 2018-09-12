@@ -67,29 +67,29 @@
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
+            <div class="top-right links">
+                @auth
+                <a href="{{ url('/home') }}">Home</a>
+                @else
+                <a href="{{ route('login') }}">Login</a>
+                @endauth
+            </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Demo
+                    Claim Solution
                 </div>
-
+                <div class="m-b-md">
+                    V 1.01
+                </div>              
                 <div class="links">
-                    <!--a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a-->
-                    <a href="#">FAQ</a>
-                    <a href="https://buscarv.com.mx">Contactanos</a>
-                    <a href="https://buscarv.com.mx">Ayuda</a>
+
+                    <a href="https://buscarv.com.mx#contact">Contactanos</a>
+                    <a href="https://buscarv.com.mx#contact">Ayuda</a>
                 </div>
             </div>
         </div>
     </body>
+</footer>
 </html>

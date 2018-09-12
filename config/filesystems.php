@@ -65,5 +65,12 @@ return [
         ],
 
     ],
+    
+    'claims_images' => [
+        'driver' => 'local',
+        'root' => storage_path('app/public/claims/pics/'),
+        'url' => env('APP_URL').'/storage/claims/pics/',
+        'visibility' => 'public',
+    ],
 
 ];

@@ -38,4 +38,8 @@ class User extends Authenticatable
     public function dealerInfo(){
         return $this->belongsTo('App\Dealer','idUsuario','id');
     }
+    
+    /*public function contactCarrier(){
+        return $this->hasOne('App\ContactCarrier','idUser','id');
+    }*/
 }

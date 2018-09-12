@@ -19,6 +19,20 @@ function justNumbers(e)
     return /\d/.test(String.fromCharCode(keynum));
 }
 
+function phoneValidation(e)
+{
+    var keynum = window.event ? window.event.keyCode : e.which;
+    if (e.value.length > 9 ) {
+        return false;
+    }
+    if ((keynum == 8) || (keynum == 46))
+        return true;
+
+    return /\d/.test(String.fromCharCode(keynum));
+}
+
+
+
 function onlyLetters(e) {
     key = e.keyCode || e.which;
     tecla = String.fromCharCode(key).toLowerCase();
@@ -66,4 +80,17 @@ function getSelectionStart(o) {
         return o.value.lastIndexOf(r.text)
     } else
         return o.selectionStart
+}
+
+function round(num, decimales = 2) {
+    var signo = (num >= 0 ? 1 : -1);
+    num = num * signo;
+    if (decimales === 0) //con 0 decimales
+        return signo * Math.round(num);
+    // round(x * 10 ^ decimales)
+    num = num.toString().split('e');
+    num = Math.round(+(num[0] + 'e' + (num[1] ? (+num[1] + decimales) : decimales)));
+    // x * 10 ^ (-decimales)
+    num = num.toString().split('e');
+    return signo * (num[0] + 'e' + (num[1] ? (+num[1] - decimales) : -decimales));
 }

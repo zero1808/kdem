@@ -15,4 +15,8 @@ class Carrier extends Model
     public function order(){
         return $this->belongsTo('App\Order','idCarrier','id');
     }
+    
+    public function contactCarriers(){
+        return $this->hasMany('App\ContactCarrier','idCarrier','id');
+    }
 }

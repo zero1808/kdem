@@ -16,6 +16,9 @@ class CreateCarriersTable extends Migration
         Schema::create('carriers', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('business_name')->nullable();
+            $table->string('rfc')->nullable();
+            $table->integer('status')->default(1);
             $table->timestamps();
         });
     }
